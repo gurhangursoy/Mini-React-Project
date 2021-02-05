@@ -19,7 +19,7 @@ element.setAttribute(name, value)
 
 ### Örnek Kullanım;
 
-Alttaki örnekte HTML içindeki `<button>` elementine `**setAttribute()**` kullanarak bir attribute ekleyelim. 
+Alttaki örnekte HTML içindeki `<button>` elementine **`setAttribute()`** kullanarak bir attribute ekleyelim. 
   
 ```  
 HTML
