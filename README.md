@@ -18,7 +18,7 @@ element.setAttribute(name, value)
 
 ### Örnek Kullanım;
 
-Alttaki örnekte HTML içindeki <button> elementine **setAttribute()** kullanarak bir attribute ekleyelim. 
+Alttaki örnekte HTML içindeki `<button>` elementine **setAttribute()** kullanarak bir attribute ekleyelim. 
   
 ```  
 HTML
@@ -37,6 +37,7 @@ console.log (b);  // <button name="Hello World">Hello World</button>
 **getAttribute()** elementte belirtilen attribute değerini döndürür. Eğer seçilen elementte istenen attribute değeri yoksa döndürülen değer "null" ya da "" (boş dizi) olacaktır.
 
 ### Kullanım Şekli ;
+
 ```
 element.getAttribute(name)
 
@@ -44,7 +45,7 @@ element.getAttribute(name)
 
 ### Örnek Kullanım;
 
-Alttaki örnekte HTML içinde bulunan bir <div> elementinin attribute değerine **getAttribute()** kullanarak erişmeye çalışalım.
+Alttaki örnekte HTML içinde bulunan bir `<div>` elementinin attribute değerine **getAttribute()** kullanarak erişmeye çalışalım.
 
 ```
 HTML
@@ -58,9 +59,11 @@ const div1 = document.getElementById('div1');
 
 //=> <div id="div1">Hi Champ!</div>
 const exampleAttr= div1.getAttribute('id');
+
 //=> "div1"
 
 const align = div1.getAttribute('align')
+
 //=> null
 ```
 
@@ -76,7 +79,7 @@ element.removeAttribute(attrName);
 ```
 
 ### Örnek Kullanım;
-Alttaki örnekte HTML içinde bulunan bir <div> elementinin attribute değerini **removeAttribute()** kullanarak silmeye çalışalım.
+Alttaki örnekte HTML içinde bulunan bir `<div>` elementinin attribute değerini **removeAttribute()** kullanarak silmeye çalışalım.
 
 ```
 HTML
@@ -86,6 +89,7 @@ HTML
 JavaScript
 
 document.getElementById("div1").removeAttribute("align");
+
 <div id="div1" width="200px">
 
 ```
@@ -95,8 +99,10 @@ document.getElementById("div1").removeAttribute("align");
 
 
 ### Kullanım Şekli ;
+
 ```
 element.hasAttribute(attrName);
+
 ```
 
 ### Örnek Kullanım;
@@ -116,3 +122,5 @@ var x = document.querySelector("#test");
     x.setAttribute("target", "_self");
 }
 ```
+
+Kaynak : developer.mozilla.org
