@@ -1,7 +1,7 @@
 # ATTRİBUTES 
 JavaScript'te HTML elemanları oluşturabildiğimiz gibi oluşturduğumuz elemanların attribute değerleri ile ilgili işlemler yapmamız da mümkün. 
 
-Örneğin bir attribute oluşturmak ya da var olan attribute değerini güncellemek için `**setAttribute()**` metodunu, elemanın sahip olduğu attribute değerini öğrenmek için `**getAttribute()**` metodunu, elemanın belli bir attribute değerine sahip  olup olmadığını kontrol etmek için `**hasAttribute()**` metodunu ya da var olan bir attribute değerini silmek için `**removeAttribute()**` metodunu kullanabiliriz.
+Örneğin bir attribute oluşturmak ya da var olan attribute değerini güncellemek için `**setAttribute()**` metodunu, elemanın sahip olduğu attribute değerini öğrenmek için **`getAttribute()`** metodunu, elemanın belli bir attribute değerine sahip  olup olmadığını kontrol etmek için `**hasAttribute()**` metodunu ya da var olan bir attribute değerini silmek için `**removeAttribute()**` metodunu kullanabiliriz.
 
 Şimdi bu metodlara yakından bakalım. 
 
